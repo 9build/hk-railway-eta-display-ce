@@ -1,0 +1,125 @@
+9 BUILD / 玖造
+COMMUNITY EDITION FIRMWARE BINARY LICENCE
+Version 1.0 — effective 27 July 2026
+
+IMPORTANT: THIS IS A PROPRIETARY BINARY LICENCE, NOT AN OPEN-SOURCE LICENCE.
+BY DOWNLOADING, OPENING, INSTALLING, FLASHING, OR USING THE FIRMWARE, YOU
+ACCEPT THESE TERMS. IF YOU DO NOT ACCEPT THEM, DO NOT DOWNLOAD, INSTALL, OR
+USE THE FIRMWARE; DELETE EVERY COPY YOU HOLD.
+
+1. Definitions
+
+"Firmware" means a precompiled 9 Build / 玖造 Community Edition firmware
+release, including its installer binary, updates, and accompanying release
+documents. It does not include source code. "Licensor" means 9 Build / 玖造.
+"You" means the individual accepting this Licence, not a company, group,
+client, or other organisation.
+
+2. Limited personal-use grant
+
+Subject to every term below, Licensor grants you a limited, non-exclusive,
+non-transferable, non-sublicensable, revocable licence to download one
+published Firmware release and personally install and run its unmodified
+binary only on hardware that you personally own and directly control, solely
+for your own private, personal, non-commercial DIY or research use.
+
+3. Strict restrictions
+
+You must not, and must not permit another person or entity to:
+
+  a. sell, rent, lease, lend, sublicense, assign, donate, transfer, publish,
+     mirror, upload, distribute, redistribute, or otherwise make the Firmware
+     or any copy available to anyone else;
+
+  b. flash, install, configure, repair, service, demonstrate as a service,
+     supply, or provide support for the Firmware on a device owned, controlled,
+     supplied, or used by another person or entity. This prohibition applies
+     whether you charge money, accept a donation or other benefit, act as a
+     favour, or do it for free;
+
+  c. use the Firmware in, for, or in connection with a business, employment,
+     trade, commercial service, product sale, rental, public installation,
+     organisational activity, marketing activity, or revenue-generating
+     activity;
+
+  d. pre-install the Firmware on hardware supplied to another person or entity,
+     or bundle it with a product or service;
+
+  e. modify, translate, adapt, reverse engineer, decompile, disassemble,
+     bypass a technical protection, or create a derivative work from the
+     Firmware, except to the extent that applicable law expressly prevents this
+     restriction;
+
+  f. remove, obscure, or alter any copyright, trademark, licence, checksum, or
+     other proprietary notice.
+
+No commercial or other broader right exists unless Licensor grants it in a
+separate written agreement signed by Licensor.
+
+4. Ownership and no implied rights
+
+Licensor and its licensors retain all right, title, and interest in the
+Firmware and all associated intellectual-property rights. This Licence gives
+you permission to use a copy only as stated above; it does not sell or transfer
+ownership of the Firmware. All rights not expressly granted are reserved.
+
+5. Release integrity and updates
+
+Use only the installer named for your exact supported board and verify it
+against the accompanying SHA256SUMS file before flashing. Licensor may change,
+suspend, or stop providing any release, update, feature, data source, or
+support. A later release may have additional or replacement terms that apply
+when you choose to download or use it.
+
+6. No support; warranty and liability boundary
+
+The Firmware is provided "AS IS" and "AS AVAILABLE". To the maximum extent
+permitted by law, Licensor disclaims all warranties and conditions, including
+merchantability, fitness for a particular purpose, accuracy, availability,
+non-infringement, and uninterrupted operation. You are responsible for backup,
+compatibility, installation, device damage, data loss, and use of the
+Firmware. To the maximum extent permitted by law, Licensor is not liable for
+indirect, incidental, special, consequential, exemplary, or lost-profit
+damages arising from the Firmware or this Licence. Nothing in this Licence
+excludes liability or a right that cannot lawfully be excluded or limited.
+
+7. Termination
+
+This Licence ends automatically if you breach any term. On termination, you
+must stop using the Firmware and permanently delete all copies in your control.
+Sections 3, 4, 6, 7, 8, and 9 survive termination.
+
+8. Third-party material
+
+The Firmware may contain components subject to separate third-party notices or
+licences. Those notices remain effective for the applicable component; this
+Licence does not remove rights that applicable law requires Licensor to pass
+through.
+
+9. Governing law and language
+
+This Licence is governed by the laws of the Hong Kong Special Administrative
+Region. The courts of the Hong Kong Special Administrative Region have
+exclusive jurisdiction, subject to any mandatory law that applies to you. If a
+term is unenforceable, the rest remains effective. The English text controls if
+there is a conflict with a translation.
+
+中文重點（如中英文有歧義，以英文條款為準）
+
+這是玖造 9 Build Community Edition 韌體的專有二進位檔授權，並非開源授權。
+下載、開啟、安裝、刷寫或使用即表示你同意本條款。你只可親自在自己擁有及
+直接控制的裝置上，為個人、私人、非商業 DIY 或研究用途使用未修改的已發布
+韌體。
+
+你不得出售、轉售、借出、上載、分享、再分發或以其他方式提供韌體；不得替
+其他人、朋友、客戶、公司或機構的裝置刷寫、安裝、設定、維修、供應或提供
+技術支援。此限制不論收費、收取捐款或其他利益、幫手或免費均適用。亦不得
+把韌體用於商業、工作、業務、產品銷售、租賃、公開安裝、機構活動、宣傳或
+任何收入用途；不得預先安裝在交給他人的產品上；不得修改、逆向工程、反編
+譯、拆解或繞過保護措施（法律強制允許者除外）。
+
+玖造 9 Build 保留韌體及相關知識產權的一切權利。本韌體按「現狀」及
+「可提供」基準提供，不保證支援、更新、持續供應、相容性或可用性；使用、
+安裝、裝置損壞及資料遺失風險由你承擔。在法律容許範圍內，責任限制適用；
+任何法律不得排除或限制的權利及責任不受影響。本條款受香港特別行政區法律
+管轄。
