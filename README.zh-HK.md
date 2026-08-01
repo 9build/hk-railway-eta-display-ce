@@ -59,6 +59,8 @@
 
 ## 安裝 Community Edition
 
+> **購買產品的重要提示：** 如果你購買的是由玖造 9 Build 製作及交付的顯示器，請勿自行下載、刷寫或重灌本頁的 Community Edition（CE）韌體。本 repository 只供在你自己擁有及直接控制的相容硬件上安裝 CE 使用；如需更新、維修或處理刷寫問題，請先聯絡玖造 9 Build。
+
 請使用適用於 classic ESP32-WROOM-32E 主機板及 **ILI9341V** display 的 installer。先到 [GitHub Releases](../../releases) 下載相符檔案及 `SHA256SUMS`，然後核對 checksum：
 
 ```sh

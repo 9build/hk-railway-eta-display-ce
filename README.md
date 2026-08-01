@@ -59,6 +59,8 @@ Product features and screen designs may improve in future releases. Always check
 
 ## Install Community Edition
 
+> **Important for purchased products:** If you bought a display made and delivered by 玖造 9 Build, do not download, flash, or reinstall this Community Edition firmware yourself. This repository is for CE installations on your own compatible hardware; contact 玖造 9 Build first for updates, repairs, or flashing issues.
+
 Use the installer for a classic ESP32-WROOM-32E board with an **ILI9341V** display. Download the matching file and `SHA256SUMS` from [GitHub Releases](../../releases), then verify the checksum:
 
 ```sh
