@@ -65,12 +65,30 @@ Use the installer for a classic ESP32-WROOM-32E board with an **ILI9341V** displ
 shasum -a 256 platform9-ce-esp32e-ili9341-28-install.bin
 ```
 
+### Find your USB serial port
+
+Connect the display by USB, then identify its serial port before running
+`esptool`. Disconnect and reconnect the board if needed—the newly appearing
+entry is usually the correct one. Close Arduino IDE, a serial monitor, or any
+other app using that port first.
+
+- **macOS:** run `ls /dev/cu.*` in Terminal. Typical names include
+  `/dev/cu.usbserial-XXXX`, `/dev/cu.SLAB_USBtoUART`, or `/dev/cu.wchusbserial*`.
+- **Linux:** run `ls /dev/ttyUSB* /dev/ttyACM*` in a terminal. Typical names
+  are `/dev/ttyUSB0` and `/dev/ttyACM0`. If access is denied, add your user to
+  the `dialout` group, sign out and back in, then try again.
+- **Windows:** open **Device Manager** → **Ports (COM & LPT)** and look for the
+  newly connected USB serial device. Use its name, such as `COM3` or `COM5`.
+
 Flash the merged installer with Espressif `esptool`. Replace the serial port with your own:
 
 ```sh
 python3 -m esptool --chip esp32 --port /dev/cu.usbserial-XXXX --baud 460800 erase-flash
 python3 -m esptool --chip esp32 --port /dev/cu.usbserial-XXXX --baud 460800 write-flash --flash-size 4MB 0x0 platform9-ce-esp32e-ili9341-28-install.bin
 ```
+
+On Windows, use the `COM` name from Device Manager and `python` if that is how
+Python is installed, for example `python -m esptool --port COM3 ...`.
 
 For Windows commands, USB download mode, and troubleshooting, read the [English flashing guide](../../releases/latest/download/FLASHING.md) or [繁體中文（香港）刷寫指南](../../releases/latest/download/FLASHING.zh-HK.md). Arduino IDE is not the supported installer path.
 

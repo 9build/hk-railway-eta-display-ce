@@ -65,12 +65,29 @@
 shasum -a 256 platform9-ce-esp32e-ili9341-28-install.bin
 ```
 
+### 查找 USB serial port 名稱
+
+使用 `esptool` 前，請先以 USB 連接顯示屏，然後確認 serial port 名稱。如不確定，
+可先拔除再重新連接主機板；新出現的項目通常就是正確名稱。請先關閉 Arduino IDE、
+serial monitor 或任何正在使用該 port 的應用程式。
+
+- **macOS：** 在 Terminal 執行 `ls /dev/cu.*`。常見名稱包括
+  `/dev/cu.usbserial-XXXX`、`/dev/cu.SLAB_USBtoUART` 或 `/dev/cu.wchusbserial*`。
+- **Linux：** 在 terminal 執行 `ls /dev/ttyUSB* /dev/ttyACM*`。常見名稱包括
+  `/dev/ttyUSB0` 和 `/dev/ttyACM0`。如顯示權限不足，請將使用者帳戶加入 `dialout`
+  group，登出再登入後重試。
+- **Windows：** 開啟 **Device Manager** → **Ports (COM & LPT)**，尋找新連接的 USB
+  serial device；使用其顯示的名稱，例如 `COM3` 或 `COM5`。
+
 使用 Espressif `esptool` 刷寫已合併的 Firmware installer。請將 serial port 改為你的裝置：
 
 ```sh
 python3 -m esptool --chip esp32 --port /dev/cu.usbserial-XXXX --baud 460800 erase-flash
 python3 -m esptool --chip esp32 --port /dev/cu.usbserial-XXXX --baud 460800 write-flash --flash-size 4MB 0x0 platform9-ce-esp32e-ili9341-28-install.bin
 ```
+
+Windows 請使用 Device Manager 顯示的 `COM` 名稱；如 Python 指令為 `python`，
+可使用例如 `python -m esptool --port COM3 ...`。
 
 如需 Windows 指令、USB download mode 或 troubleshooting，請閱讀[繁體中文（香港）刷寫指南](../../releases/latest/download/FLASHING.zh-HK.md)或 [English flashing guide](../../releases/latest/download/FLASHING.md)。Arduino IDE 並非支援的 installer 方法。
 
