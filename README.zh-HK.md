@@ -6,7 +6,7 @@
 
 <h1 align="center">香港鐵路到站屏 / HK Railway ETA Display</h1>
 
-<p align="center"><strong>Community Edition</strong></p>
+<p align="center"><strong>個人版（CE）</strong></p>
 
 <p align="center">
   <a href="README.md">English</a> ·
@@ -57,9 +57,9 @@
 
 產品功能及 screen design 會在日後的 Release 持續改進；安裝新版本前，請先閱讀 release notes。
 
-## 安裝 Community Edition
+## 安裝個人版（CE）
 
-> **購買產品的重要提示：** 如果你購買的是由玖造 9 Build 製作及交付的顯示器，請勿自行下載、刷寫或重灌本頁的 Community Edition（CE）韌體。本 repository 只供在你自己擁有及直接控制的相容硬件上安裝 CE 使用；如需更新、維修或處理刷寫問題，請先聯絡玖造 9 Build。
+> **購買產品的重要提示：** 如果你購買的是由玖造 9 Build 製作及交付的顯示器，請勿自行下載、刷寫或重灌本頁的個人版（CE）韌體。本 repository 只供在你自己擁有及直接控制的相容硬件上安裝 CE 使用；如需更新、維修或處理刷寫問題，請先聯絡玖造 9 Build。
 
 請使用適用於 classic ESP32-WROOM-32E 主機板及 **ILI9341V** display 的 installer。先到 [GitHub Releases](../../releases) 下載相符檔案及 `SHA256SUMS`，然後核對 checksum：
 
@@ -95,13 +95,13 @@ Windows 請使用 Device Manager 顯示的 `COM` 名稱；如 Python 指令為 `
 
 ## 下載前請閱讀
 
-請先閱讀 Release 內的 `LICENSE.txt`。Community Edition 只可在你自己擁有及直接控制的硬件上，作個人、私人及非商業用途安裝及使用。每個 Release 隨附的 licence 為準。
+請先閱讀 Release 內的 `LICENSE.txt`。個人版（CE）只可在你自己擁有及直接控制的硬件上，作個人、私人及非商業用途安裝及使用。每個 Release 隨附的 licence 為準。
 
 ## 連結
 
 - [玖造 9 Build · 9buildhk.com](https://9buildhk.com)
 - [下載頁](https://9buildhk.com/#download)
-- [Community Edition Releases](../../releases)
+- [個人版（CE）Releases](../../releases)
 - [港鐵 Open Data ETA 介面](https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php)
 
 本產品由獨立創作者製作，與港鐵公司、DATA.GOV.HK 或任何鐵路營運商並無關係，亦不代表獲其認可或支持。
