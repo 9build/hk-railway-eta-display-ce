@@ -33,6 +33,10 @@
 
 Join a compatible 2.4 GHz Wi-Fi network directly on the display—no phone app or separate gateway is needed. HK Railway ETA Display then reads public MTR ETA data and shows the next trains, platforms, and destinations. It is made by [玖造 9 Build](https://9buildhk.com) in Hong Kong.
 
+Community Edition is intentionally focused on Heavy Rail ETA, Wi-Fi setup, and
+the built-in display. It does not include a clock, weather, Light Rail,
+display-orientation controls, or OTA updates.
+
 ## Highlights
 
 <table>
@@ -45,7 +49,7 @@ Join a compatible 2.4 GHz Wi-Fi network directly on the display—no phone app o
     <td width="33.33%" align="center" valign="top">
       <img src="./assets/ce-line-picker.png" alt="MTR line picker in the 9 Build device frame" width="100%"><br>
       <strong>Choose a line</strong><br>
-      <sub>Select the line and station you want to follow.</sub>
+      <sub>Select a line, then use the bottom station selector.</sub>
     </td>
     <td width="33.33%" align="center" valign="top">
       <img src="./assets/ce-baked-ad.png" alt="Built-in information and advertising display in the 9 Build device frame" width="100%"><br>

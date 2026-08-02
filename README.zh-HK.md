@@ -33,6 +33,8 @@
 
 可直接在 display 上連接相容的 2.4 GHz Wi-Fi network，毋須手機 app 或額外 gateway。連接後，香港鐵路到站屏會讀取港鐵公開 ETA 資料，顯示下一班車、月台及目的地。產品由香港的 [玖造 9 Build](https://9buildhk.com) 製作。
 
+個人版（CE）專注提供重鐵 ETA、Wi-Fi 設定及內置資訊／宣傳畫面；不設時鐘、天氣、輕鐵、螢幕方向設定或 OTA 更新功能。
+
 ## 主要功能
 
 <table>
@@ -45,7 +47,7 @@
     <td width="33.33%" align="center" valign="top">
       <img src="./assets/ce-line-picker.png" alt="9 Build 裝置框架中的港鐵路線選擇畫面" width="100%"><br>
       <strong>選擇路線</strong><br>
-      <sub>選擇要追蹤的路線及車站。</sub>
+      <sub>揀選路綫，再用畫面底部嘅車站選擇列。</sub>
     </td>
     <td width="33.33%" align="center" valign="top">
       <img src="./assets/ce-baked-ad.png" alt="9 Build 裝置框架中的內置資訊及宣傳畫面" width="100%"><br>
