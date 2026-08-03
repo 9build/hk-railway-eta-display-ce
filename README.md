@@ -24,9 +24,9 @@
 
 <p align="center">
   <a href="https://9buildhk.com">9buildhk.com</a> ·
-  <a href="../../releases">GitHub Releases</a> ·
-  <a href="../../releases/latest/download/FLASHING.zh-HK.md">繁體中文（香港）刷寫指南</a> ·
-  <a href="../../releases/latest/download/FLASHING.md">English flashing guide</a>
+  <a href="https://github.com/9build/hk-railway-eta-display-ce/releases">GitHub Releases</a> ·
+  <a href="https://github.com/9build/hk-railway-eta-display-ce/releases/latest/download/FLASHING.zh-HK.md">繁體中文（香港）刷寫指南</a> ·
+  <a href="https://github.com/9build/hk-railway-eta-display-ce/releases/latest/download/FLASHING.md">English flashing guide</a>
 </p>
 
 > 為查閱港鐵重鐵下一班車而設的桌面 ETA display。
@@ -63,7 +63,7 @@
 
 > **購買產品的重要提示：** 如果你購買的是由玖造 9 Build 製作及交付的顯示器，請勿自行下載、刷寫或重灌本頁的個人版（CE）韌體。本 repository 只供在你自己擁有及直接控制的相容硬件上安裝 CE 使用；如需更新、維修或處理刷寫問題，請先聯絡玖造 9 Build。
 
-請使用適用於 classic ESP32-WROOM-32E 主機板及 **ILI9341V** display 的 installer。先到 [GitHub Releases](../../releases) 下載相符檔案及 `SHA256SUMS`，然後核對 checksum：
+請使用適用於 classic ESP32-WROOM-32E 主機板及 **ILI9341V** display 的 installer。先到 [GitHub Releases](https://github.com/9build/hk-railway-eta-display-ce/releases) 下載相符檔案及 `SHA256SUMS`，然後核對 checksum：
 
 ```sh
 shasum -a 256 platform9-ce-esp32e-ili9341-28-install.bin
@@ -93,7 +93,7 @@ python3 -m esptool --chip esp32 --port /dev/cu.usbserial-XXXX --baud 460800 writ
 Windows 請使用 Device Manager 顯示的 `COM` 名稱；如 Python 指令為 `python`，
 可使用例如 `python -m esptool --port COM3 ...`。
 
-如需 Windows 指令、USB download mode 或 troubleshooting，請閱讀[繁體中文（香港）刷寫指南](../../releases/latest/download/FLASHING.zh-HK.md)或 [English flashing guide](../../releases/latest/download/FLASHING.md)。Arduino IDE 並非支援的 installer 方法。
+如需 Windows 指令、USB download mode 或 troubleshooting，請閱讀[繁體中文（香港）刷寫指南](https://github.com/9build/hk-railway-eta-display-ce/releases/latest/download/FLASHING.zh-HK.md)或 [English flashing guide](https://github.com/9build/hk-railway-eta-display-ce/releases/latest/download/FLASHING.md)。Arduino IDE 並非支援的 installer 方法。
 
 ## 下載前請閱讀
 
@@ -103,7 +103,7 @@ Windows 請使用 Device Manager 顯示的 `COM` 名稱；如 Python 指令為 `
 
 - [玖造 9 Build · 9buildhk.com](https://9buildhk.com)
 - [下載頁](https://9buildhk.com/#download)
-- [個人版（CE）Releases](../../releases)
+- [個人版（CE）Releases](https://github.com/9build/hk-railway-eta-display-ce/releases)
 - [港鐵 Open Data ETA 介面](https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php)
 
 本產品由獨立創作者製作，與港鐵公司、DATA.GOV.HK 或任何鐵路營運商並無關係，亦不代表獲其認可或支持。

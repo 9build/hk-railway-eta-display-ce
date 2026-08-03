@@ -24,9 +24,9 @@
 
 <p align="center">
   <a href="https://9buildhk.com">9buildhk.com</a> ·
-  <a href="../../releases">GitHub Releases</a> ·
-  <a href="../../releases/latest/download/FLASHING.md">English flashing guide</a> ·
-  <a href="../../releases/latest/download/FLASHING.zh-HK.md">繁體中文（香港）刷寫指南</a>
+  <a href="https://github.com/9build/hk-railway-eta-display-ce/releases">GitHub Releases</a> ·
+  <a href="https://github.com/9build/hk-railway-eta-display-ce/releases/latest/download/FLASHING.md">English flashing guide</a> ·
+  <a href="https://github.com/9build/hk-railway-eta-display-ce/releases/latest/download/FLASHING.zh-HK.md">繁體中文（香港）刷寫指南</a>
 </p>
 
 > A desk display for checking the next MTR Heavy Rail arrivals at a glance.
@@ -65,7 +65,7 @@ Product features and screen designs may improve in future releases. Always check
 
 > **Important for purchased products:** If you bought a display made and delivered by 玖造 9 Build, do not download, flash, or reinstall this Community Edition firmware yourself. This repository is for CE installations on your own compatible hardware; contact 玖造 9 Build first for updates, repairs, or flashing issues.
 
-Use the installer for a classic ESP32-WROOM-32E board with an **ILI9341V** display. Download the matching file and `SHA256SUMS` from [GitHub Releases](../../releases), then verify the checksum:
+Use the installer for a classic ESP32-WROOM-32E board with an **ILI9341V** display. Download the matching file and `SHA256SUMS` from [GitHub Releases](https://github.com/9build/hk-railway-eta-display-ce/releases), then verify the checksum:
 
 ```sh
 shasum -a 256 platform9-ce-esp32e-ili9341-28-install.bin
@@ -96,7 +96,7 @@ python3 -m esptool --chip esp32 --port /dev/cu.usbserial-XXXX --baud 460800 writ
 On Windows, use the `COM` name from Device Manager and `python` if that is how
 Python is installed, for example `python -m esptool --port COM3 ...`.
 
-For Windows commands, USB download mode, and troubleshooting, read the [English flashing guide](../../releases/latest/download/FLASHING.md) or [繁體中文（香港）刷寫指南](../../releases/latest/download/FLASHING.zh-HK.md). Arduino IDE is not the supported installer path.
+For Windows commands, USB download mode, and troubleshooting, read the [English flashing guide](https://github.com/9build/hk-railway-eta-display-ce/releases/latest/download/FLASHING.md) or [繁體中文（香港）刷寫指南](https://github.com/9build/hk-railway-eta-display-ce/releases/latest/download/FLASHING.zh-HK.md). Arduino IDE is not the supported installer path.
 
 ## Before downloading
 
@@ -106,7 +106,7 @@ Read the release `LICENSE.txt`. Community Edition may be installed and used only
 
 - [玖造 9 Build · 9buildhk.com](https://9buildhk.com)
 - [Download page](https://9buildhk.com/#download)
-- [Community Edition Releases](../../releases)
+- [Community Edition Releases](https://github.com/9build/hk-railway-eta-display-ce/releases)
 - [MTR Open Data ETA endpoint](https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php)
 
 This is an independent, unofficial product. It is not affiliated with or endorsed by MTR Corporation, DATA.GOV.HK, or any railway operator.
