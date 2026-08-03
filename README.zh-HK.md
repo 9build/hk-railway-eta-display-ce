@@ -9,8 +9,8 @@
 <p align="center"><strong>個人版（CE）</strong></p>
 
 <p align="center">
-  <a href="README.md">English</a> ·
-  <a href="README.zh-HK.md">繁體中文（香港）</a>
+  <a href="README.md">繁體中文（香港）</a> ·
+  <a href="README.en.md">English</a>
 </p>
 
 <p align="center">
