@@ -18,7 +18,7 @@
     <img src="https://img.shields.io/github/v/release/9build/hk-railway-eta-display-ce?display_name=tag&amp;sort=semver&amp;label=latest%20release" alt="Latest release">
   </a>
   <a href="https://github.com/9build/hk-railway-eta-display-ce/releases">
-    <img src="https://img.shields.io/github/downloads/9build/hk-railway-eta-display-ce/total?label=downloads" alt="GitHub release downloads">
+    <img src="https://img.shields.io/github/downloads/9build/hk-railway-eta-display-ce/total?label=downloads&amp;cacheSeconds=300" alt="GitHub release downloads">
   </a>
 </p>
 
